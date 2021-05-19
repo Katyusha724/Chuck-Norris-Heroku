@@ -1,6 +1,7 @@
 # Ako nemate flask onda:
 # pip install -r requirements.txt --> naredba u terminalu
 # pip3 install requests
+import json
 from flask import Flask, render_template
 
 app = Flask(__name__)
