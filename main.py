@@ -1,8 +1,6 @@
 # Ako nemate flask onda:
 # pip install -r requirements.txt --> naredba u terminalu
 # pip3 install requests
-import json
-import requests
 from flask import Flask, render_template
 
 app = Flask(__name__)
@@ -30,4 +28,4 @@ def index():
 
 
 if __name__ == "__main__":
-    app.run()
+    app.run(use_reloader=True)
