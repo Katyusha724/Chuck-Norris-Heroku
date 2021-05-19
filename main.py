@@ -2,7 +2,6 @@
 # pip install -r requirements.txt --> naredba u terminalu
 # pip3 install requests
 import json
-import requests
 from flask import Flask, render_template
 
 app = Flask(__name__)
